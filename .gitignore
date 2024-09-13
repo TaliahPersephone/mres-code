@@ -1,0 +1,52 @@
+# Tex
+*.aux
+*.bit
+*.blg
+*.bbl
+*.fls
+*.fdb_latexmk
+*.lof
+*.log
+*.lot
+*.glo
+*.glx
+*.gxg
+*.gxs
+*.idx
+*.ilg
+*.ind
+*.out
+*.url
+*.svn
+*.synctex.gz
+*.toc
+
+# Output
+main.pdf
+
+# nvim
+.swp
+*tags
+
+# Python files
+*__pycache__*
+venv
+.cz.toml
+*Untitled*.ipynb*
+*.egg-info*
+build/*
+*.python-version
+
+# Text
+*.pdf
+*.docx
+
+# Images
+*.png
+*.jpg
+
+# Misc
+*.swp
+*.tar.gz
+
+
