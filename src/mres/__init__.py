@@ -1,5 +1,23 @@
-""" Weak value calculations """
+"""Weak value calculations"""
+
 __version__ = "0.1"
 
-from mres.weakvalues import wv_pipeline, calculate_wvs, bvs_interaction_picture, calculate_vgammas, wvs_ferraz, field_quadrature_expectations, prepare_params
-from mres.plot import plot_fixed_results, plot_against_tau, plot_im_against_tau, plot_im_against_sigma, plot_against_sigma, plot_im_deltas
+from mres.plot import (
+    plot_against_sigma,
+    plot_against_tau,
+    plot_fixed_results,
+    plot_im_against_sigma,
+    plot_im_against_tau,
+    plot_im_deltas,
+    plot_decoherence,
+    plot_dephasing,
+)
+from mres.weakvalues import (
+    bvs_interaction_picture,
+    calculate_vgammas,
+    calculate_wvs_ferraz,
+    field_quadrature_expectations,
+    prepare_params,
+    wv_pipeline,
+    wvs_ferraz,
+)
